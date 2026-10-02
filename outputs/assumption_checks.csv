@@ -1,0 +1,5 @@
+test,diagnostics,interpretation
+Welch t-test,Shapiro Africa p=0.01107; Europe p=0.03274; Levene p=3.497e-05,Welch test does not require equal variances.
+Pearson correlation,"r=0.679; 95% CI [0.579, 0.759]",Review linearity and influential observations.
+OLS regression,Residual Shapiro p=2.768e-08; Breusch-Pagan F-test p=0.1528,"Diagnostics inform, but do not prove, assumptions."
+Chi-square,Minimum expected count=0.54,Expected counts support chi-square approximation.
